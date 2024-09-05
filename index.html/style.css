@@ -97,3 +97,38 @@ footer{
     padding: 25px 0;
     margin-top: 100px;
 }
+
+@media(max-width: 768px){
+    .hero{
+        padding: 60px;
+    }
+    .hero h2{
+        font-size: 28px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+    .game-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .game-item{
+        width: 80px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px){
+    .hero h2{
+        font-size: 24px;
+    }
+    .hero p{
+        font-size: 14px;
+    }
+    .hero .btn{
+        padding: 8px 16px;
+    }
+    .game-item{
+        width: 100%;
+        padding: 15px;
+    }
+}
